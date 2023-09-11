@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,td,tr {
+                border:1px solid black;
+                border-collapse: collapse;
+              }
+        </style>
+    </head>
+    
+    <body>
+        <h1  style="color:blue;text-align:  center;">Registration form</h1>
+        <form>
+    <div style = "margin-left: 30%;" width="50%">
+        <table >
+            
+            <tr>
+                <th>
+                    <label>First Name :</label>
+                </th>
+                <td style="width:75%">
+                    <input type="text" size="70">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Last Name :</label>
+                </th>
+                <td>
+                    <input type = "text" size="70"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Email :</label>
+                </th>
+                <td>
+                    <input type = "email" size="70"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Passworrd :</label>
+                </th>
+                <td>
+                    <input type = "Password" size="70"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Re-enter Passworrd :</label>
+                </th>
+                <td>
+                    <input type = "Password" size="70"/>
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="2">
+                    <label>Gebder :</label>
+                </th>
+                <td>
+                    <input type = "radio" name="gender">
+                    <label>Male</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type = "radio" name = "gender">
+                    <label>Female</label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Age :</label>
+                </th>
+                <td>
+                    <input type = "number" size="70"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Phone number :</label>
+                </th>
+                <td>
+                    <input type = "number" size="70"/>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Address :</label>
+                </th>
+                <td>
+                    <textarea rows="5" cols="57"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>State :</label>
+                </th>
+                <td>
+                    <input type="text" size="70">
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Country :</label>
+                </th>
+                <td>
+                    <select >
+                    <option value = "cyc">Choose your country</option>
+                    <option value = "india">India</option>
+                    <option value = "USA">USA</option>
+                    <option value = "UK">UK</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    <label>Languages known :</label>
+                </th>
+                <td>
+                    <input type="checkbox">English
+                    <input type="checkbox">Kannada
+                    <input type="checkbox">Hindi
+                    <input type="checkbox">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox">Hereby I declare all the given details are true
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style = "text-align: right;">
+                    login to <a href = "https://ethnus.com/">Ethnus</a> website
+                    
+                </td>
+            </tr>
+
+        </table>
+    </div>
+        </form>
+        <br>
+        <center>
+        <input type = "submit" value = Register />
+        </center>
+    </form>
+    </body>
+    
+</html>
